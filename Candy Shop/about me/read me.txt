@@ -1,0 +1,23 @@
+Instructions:
+There are two types of users of the machine: 
+1. Admininstrator 
+2. Customers
+Admininstrator must logon to work with machine, i-e. Start and stop the machine, perform various operations with the items. On the other hand, Customers don't need to logon, they just need an operational machine to perform their transactions. Following are brief information about the user account information for the Administrator.
+****************************************************
+Username: admin
+Password: 123
+****************************************************
+After logon, a menu will appear that requires further actions as follows:
+First of all enter 1 to add items.
+Now, an administrator can view, delete, search the items.
+When admin wants to start the Machine.
+****************************************************
+Press 6, and Machine will open for customer.
+Customer will enter first cash then his/her choice from the list of items being showed to him.
+Then he/she will enter the quantity of the item.
+After confirmation, the Machine will dispense the item for the customer.
+****************************************************
+Note:
+The admin can check the Sale of the products anytime as follows:
+By entering "-1" in the cash it will take the admin back to the admin menu where by entering 5, admin can view his Sale. 
+****************************************************
