@@ -29,7 +29,7 @@ public class AbsLoanIndividualDetail {
     @JsonProperty("DOB")
     protected String dob;
     @JsonProperty("PROFESSION")
-    protected Profession profession;
+    protected DataSection profession;
     @JsonProperty("MARITIAL_STATUS")
     protected String maritalStatus;
     @JsonProperty("DEPENDANTS")
@@ -39,7 +39,7 @@ public class AbsLoanIndividualDetail {
     @JsonProperty("NATIONALITY")
     protected String nationality;
     @JsonProperty("QUALIFICATION")
-    protected Qualification qualification;
+    protected DataSection qualification;
     @JsonProperty("MAKER")
     protected String maker;
     @JsonProperty("CHECKER")
@@ -161,11 +161,11 @@ public class AbsLoanIndividualDetail {
         this.dob = dob;
     }
 
-    public Profession getProfession() {
+    public DataSection getProfession() {
         return profession;
     }
 
-    public void setProfession(Profession profession) {
+    public void setProfession(DataSection profession) {
         this.profession = profession;
     }
 
@@ -201,11 +201,11 @@ public class AbsLoanIndividualDetail {
         this.nationality = nationality;
     }
 
-    public Qualification getQualification() {
+    public DataSection getQualification() {
         return qualification;
     }
 
-    public void setQualification(Qualification qualification) {
+    public void setQualification(DataSection qualification) {
         this.qualification = qualification;
     }
 
